@@ -10,3 +10,6 @@ What interests me the most is how influential this idea became. Transformer-base
 
 ## #Comment from Shiyu I also find this paper interesting because the Transformer architecture shows how a relatively simple change in model design can have a very large impact. In particular, replacing recurrent processing with self-attention makes it possible to process different parts of a sequence more efficiently and capture long-range relationships between tokens. I think it is especially interesting to see how the ideas introduced in this paper eventually became the foundation for many modern large language models. It is a good example of how research in algorithms and model architecture can later influence widely used software systems. — Shiyu Guo
 
+## Comment from Zihan Chen (Vent1Zzz)
+
+I also found the change from recurrent processing to attention interesting. The paper explains that recurrent models process positions sequentially, which limits parallel computation during training. The Transformer reduces that limitation and can train more efficiently. To me, this is a useful software engineering lesson: changing the design can improve performance, rather than only optimizing the same approach.
